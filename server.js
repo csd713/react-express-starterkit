@@ -11,7 +11,7 @@ app.get('/api/user', (req, res) => {
 		{ id: 3, firstName: "Arvind", lastName: "N" },
 		{ id: 4, firstName: "Rakshith", lastName: "N" },
 		{ id: 5, firstName: "Sujay", lastName: "M" },
-		{ id: 1, firstName: "Tejas", lastName: "G" }
+		{ id: 6, firstName: "Tejas", lastName: "G" }
 	];
 
 	res.json(users);
